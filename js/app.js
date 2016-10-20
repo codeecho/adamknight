@@ -12,7 +12,7 @@ angular.module('joebloggs')
       avatar: 'assets/images/avatar.jpg',
       firstName: 'Adam',
       surname: 'Knight',
-      title: 'Software Developer',
+      title: 'Senior Java Developer',
       dob: '11th June 1984',
       email: 'adamknight84@gmail.com',
       website: 'http://www.codeecho.co.uk',
@@ -30,29 +30,35 @@ angular.module('joebloggs')
       ],
       work:[
         {
+          company: 'Vetspace Ltd',
+          date: '2015-Present',
+          title: 'Senior Java Developer',
+          description: 'Vetspace are leading providers of practice management software in the vetinary industry. Working as part of a medium sized team in an Agile environment I have lead development on several key projects'
+        },
+        {
           company: 'Revolutionary Systems',
-          date: '2014-Present',
-          title: 'Founder/Software Developer',
+          date: '2014-2015',
+          title: 'Founder/Senior Java Developer',
           description: 'Together with two colleages I founded Revolutionary Systems in 2014. Working as the lead software developer building and maintaining pioneering software solutions for businesses, I am responsible for ensuring that we can deliver efficient, scalable solutions rapidly. I am responsible for maintaining a large number of open source projects which we use throughout out solutions.'
         },{
           company: 'Open Square Ltd',
           date: '2006-2014',
-          title: 'Software Developer',
+          title: 'Senior Java Developer',
           description: 'I joined Open Square in 2006 as part of a small team and lead development for many of their back end systems from the ground up, helping them grow into a major competitor in the Insurance software market. Being part of a small team meant that I took on many roles at Open Square, from coding large, scalable backend systems, to producing frontend websites and UIs, to managing deployment and monitoring of live systems.'
         }
       ],
       skills:{
-        'Java': 90,
+        'Java': 100,
         'MYSQL': 80,
         'MongoDB': 80,
         'HTML / Javascript / CSS': 80,
         'JQuery': 80,
         'AngularJS': 80,
-        'NodeJS': 70,
+        'TypeScript': 80,
+        'NodeJS': 80,
         'Android': 50,
         'Git': 80,
         'Amazon Web Services': 80,
-        'MVC': 80,
         'Python/Jython': 70
       },
       interests: 'I enjoy playing sports, and regularly play football, tennis, badminton and squash. I\'m a keen guitarist and play lead guitar in a covers band, playing local pubs and festivals. I like to keep up with the latest development trends and technologies and maintain a small number of open source software projects which I like to work on and experiment with in my spare time.'
